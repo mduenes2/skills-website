@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background-image: linear-gradient(to top, #000000 0%, #cfd9df 100%);
+  background-color: #222629;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,4 +38,13 @@
 }
 
 .about-me-container{
+  justify-content: center;
 }
+
+.grid-container{
+  display: grid;
+  justify-self: center;
+  grid-template-columns: auto auto;
+  padding:10px;
+}
+

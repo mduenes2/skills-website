@@ -1,10 +1,28 @@
 .title{
    font-size: 50px;
-   color: black;
+   color: white;
    font-weight: bold;
 }
 .about-me-title{
    font-size: 24px;
-   color: black;
-   text-align: right;
+   color: white;
+   text-decoration: underline;
+   text-decoration-color: white;
+
+}
+
+.about-me-text{
+   font-size: 24px;
+   color: #6b6e70;
+}
+
+.sub-title{
+   font-size: 24px;
+   color: white;
+   text-decoration: underline;
+   text-decoration-color: white;
+}
+
+.grid-item{
+   text-align: center;
 }
