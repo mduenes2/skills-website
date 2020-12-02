@@ -2,12 +2,13 @@ import React, {Component} from "react";
 
 import '../css/App.css';
 import '../css/text.css';
-import '../css/photo.css'
+import '../css/photo.css';
+import '../css/button.css';
 import profPhoto from '../MichaelDuenes.jpg';
 
 
 import {Box, createMuiTheme, MuiThemeProvider, Grid, Button} from "@material-ui/core";
-import {aboutMe} from "./const";
+import {aboutMe, experience, skills} from "./const";
 
 const theme = createMuiTheme({
     palette:{
@@ -33,7 +34,7 @@ class App extends Component{
                         About me
                     </p>
 
-                    <p className="about-me-text">
+                    <p className="subject-text">
                         {aboutMe}
                     </p>
 
@@ -46,20 +47,49 @@ class App extends Component{
                             Experience
                         </p>
                     </div>
+
                     <div className="grid-item">
                         <p className="sub-title">
-                            pepe
+                            Skills
                         </p>
                     </div>
-                    <div>
 
+                    <div className="grid-item">
+                        <p className="subject-text">
+                            {experience}
+                        </p>
                     </div>
+
+                    <div className="grid-item">
+                       <p className="subject-text">
+                           {skills}
+                           <br/>
+                           <li className="list-text">Java - Proficient</li>
+                           <li className="list-text">C++ - Proficient</li>
+                           <li className="list-text">React/Redux - Proficient</li>
+                           <li className="list-text">JS, HTML, CSS - Proficient</li>
+                           <li className="list-text">Cypress - Proficient</li>
+                           <li className="list-text">Jest/Enzyme/Mocha - Proficient</li>
+                           <li className="list-text">MySQL - Proficient</li>
+                       </p>
+                    </div>
+                </div>
+                <div>
+                    <MuiThemeProvider theme={theme}>
+                        <Button variant="contained" color="primary" size="large"  className="ui-button" onClick={this.redirectFunction}>
+                            Linkedin Account
+                        </Button>
+                    </MuiThemeProvider>
                 </div>
 
             </header>
         </div>
       );
   }
+
+  redirectFunction(){
+      window.location.href = "https://www.linkedin.com/in/michael-duenes-21472219b/";
+    }
 }
 
 export default App;
