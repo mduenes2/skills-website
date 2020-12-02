@@ -1,14 +1,14 @@
 import React, {Component} from "react";
 
-import '../css/App.css';
-import '../css/text.css';
-import '../css/photo.css';
-import '../css/button.css';
-import profPhoto from '../MichaelDuenes.jpg';
+import './src/css/App.css';
+import './src/css/text.css';
+import './src/css/photo.css';
+import './src/css/button.css';
+import profPhoto from './src/MichaelDuenes.jpg';
 
 
 import {Box, createMuiTheme, MuiThemeProvider, Grid, Button} from "@material-ui/core";
-import {aboutMe, experience, skills} from "./const";
+import {aboutMe, experience, skills} from "./src/js/const";
 
 const theme = createMuiTheme({
     palette:{
