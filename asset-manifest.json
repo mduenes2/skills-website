@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/skills-website/static/css/main.a764b07d.chunk.css",
+    "main.js": "/skills-website/static/js/main.f109b951.chunk.js",
+    "main.js.map": "/skills-website/static/js/main.f109b951.chunk.js.map",
+    "runtime-main.js": "/skills-website/static/js/runtime-main.9a22d929.js",
+    "runtime-main.js.map": "/skills-website/static/js/runtime-main.9a22d929.js.map",
+    "static/js/2.a5cfe874.chunk.js": "/skills-website/static/js/2.a5cfe874.chunk.js",
+    "static/js/2.a5cfe874.chunk.js.map": "/skills-website/static/js/2.a5cfe874.chunk.js.map",
+    "static/js/3.a76806df.chunk.js": "/skills-website/static/js/3.a76806df.chunk.js",
+    "static/js/3.a76806df.chunk.js.map": "/skills-website/static/js/3.a76806df.chunk.js.map",
+    "index.html": "/skills-website/index.html",
+    "static/css/main.a764b07d.chunk.css.map": "/skills-website/static/css/main.a764b07d.chunk.css.map",
+    "static/js/2.a5cfe874.chunk.js.LICENSE.txt": "/skills-website/static/js/2.a5cfe874.chunk.js.LICENSE.txt",
+    "static/media/MichaelDuenes.6b3d6480.jpg": "/skills-website/static/media/MichaelDuenes.6b3d6480.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a22d929.js",
+    "static/js/2.a5cfe874.chunk.js",
+    "static/css/main.a764b07d.chunk.css",
+    "static/js/main.f109b951.chunk.js"
+  ]
+}
